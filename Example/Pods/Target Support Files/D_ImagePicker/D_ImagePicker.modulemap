@@ -1,0 +1,6 @@
+framework module D_ImagePicker {
+  umbrella header "D_ImagePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
