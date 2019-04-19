@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef void(^imageBrowerSelect)(void);
 
 @protocol imageBrowerSelectDelegate <NSObject>
-//选中代理
+//选中代理sssssss
 - (void)imageBrowerSelect:(D_ImagePickerModel *)model;
 
 @end
