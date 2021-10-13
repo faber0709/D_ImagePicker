@@ -22,7 +22,7 @@
     UIButton *show = [UIButton buttonWithType:UIButtonTypeCustom];
     show.frame = CGRectMake(0, 100, self.view.frame.size.width, 50);
     [show setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [show setTitle:@"显示" forState:UIControlStateNormal];
+    [show setTitle:@"显示333" forState:UIControlStateNormal];
     [show addTarget:self action:@selector(show) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:show];
 }
